@@ -1,0 +1,47 @@
+{%extends 'cosmetics/layout.html'%}
+
+{%load static%}
+
+{%block body%}
+<header>
+    
+    <div class="logo">
+        <div class="logo_img">
+            <img src="{%static 'cosmetics/queen.png'%}" alt="logo.">
+        </div>
+        
+        <h2>confidant lady</h2>
+    </div>
+    <div class="navigation">
+        <a href="#">home</a>
+        <a href="#products">products</a>
+        <a href="#">blog</a>
+        <a href="#">contacts</a>
+    </div>
+</header>
+<div class="home">
+    <div class="about">
+   
+    <p><b>Self Care is a necessity</b><br>make your skin a priority today
+    </p>
+    </div>
+    <div class="black_beautiful">
+
+        <div class="image">
+            <img src="{% static 'cosmetics/this.jpg' %}" alt="My image">
+        </div>
+
+        
+    
+    </div>
+</div>
+<div class="products" id="products">
+
+    
+</div>
+
+
+
+
+
+{%endblock%}
